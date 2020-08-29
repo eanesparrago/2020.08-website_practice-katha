@@ -8,7 +8,7 @@ const CompanySection = (props) => {
       <div className="CompanySection__content-block">
         <img
           className="CompanySection__logo"
-          src="/static/images/logo-main-onDark.png"
+          src="/static/images/katha_logo-on_dark.png"
           alt="Likha+ logo"
         />
 

@@ -260,7 +260,7 @@ S.HeaderBlock = styled.div`
   }
 
   .HeaderBlock__BrandLogo {
-    width: ${(p) => p.theme.size.toRem(256)};
+    width: ${(p) => p.theme.size.toRem(192)};
 
     @media (max-width: ${(p) => p.theme.breakpoint.tabletLandscape}) {
       width: ${(p) => p.theme.size.toRem(128)};

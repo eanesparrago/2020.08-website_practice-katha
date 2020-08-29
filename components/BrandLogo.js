@@ -10,12 +10,12 @@ const BrandLogo = (props) => {
 
   const src =
     variant === "onLight"
-      ? "/static/images/logo-main-onLight.png"
-      : "/static/images/logo-main-onDark.png";
+      ? "/static/images/katha_logo-on_light.png"
+      : "/static/images/katha_logo-on_dark.png";
 
   return (
     <S.BrandLogo {...props}>
-      <img src={src} alt="Likha+ logo" />
+      <img src={src} alt="Katha logo" />
     </S.BrandLogo>
   );
 };
