@@ -25,7 +25,7 @@ const FooterBlock = (props) => {
       </div>
 
       <small className="FooterBlock__copyright-text">
-        Copyright © 2020 Likha+
+        Copyright © 2020 Katha
       </small>
     </S.FooterBlock>
   );

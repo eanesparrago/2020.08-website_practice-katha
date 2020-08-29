@@ -105,11 +105,21 @@ const HomePageAtf = (props) => {
           )}
         </div>
 
-        <img
-          className="HomePageAtf__scrollIndicator-graphic"
-          src="/static/svgs/scroll_indicator.svg"
-          alt="Scroll down indicator"
-        />
+        <div className="HomePageAtf__scrollIndicator-graphic">
+          <svg
+            width="16"
+            height="65"
+            viewBox="0 0 16 65"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15.0709 58.3431L8.70691 64.7071C8.31639 65.0976 7.68322 65.0976 7.2927 64.7071L0.928738 58.3431C0.538214 57.9526 0.538214 57.3195 0.928738 56.9289C1.31926 56.5384 1.95243 56.5384 2.34295 56.9289L6.99981 61.5858L6.99981 -3.656e-07L8.99981 -2.78178e-07L8.99981 61.5858L13.6567 56.9289C14.0472 56.5384 14.6803 56.5384 15.0709 56.9289C15.4614 57.3195 15.4614 57.9526 15.0709 58.3431Z"
+            />
+          </svg>
+        </div>
 
         <div
           className="HomePageAtf__bgGraphic"
@@ -270,6 +280,10 @@ S.HomePageAtf = styled.div`
         opacity: 1;
         transform: translateX(-50%) translateY(0%);
       }
+    }
+
+    svg {
+      fill: ${(p) => p.theme.color.primary.light};
     }
   }
 

@@ -1,7 +1,7 @@
 export default {
   title: "What We Do",
   software: {
-    title: "Software Development",
+    title: "Design",
     serviceList: [
       "Website",
       "E-commerce",
@@ -12,7 +12,7 @@ export default {
     backgroundPhoto: "",
   },
   vfx: {
-    title: "VFX & Design",
+    title: "Develop",
     serviceList: [
       "Concept Art, Compositing",
       "3D Asset Building",

@@ -15,7 +15,7 @@ export default {
   color: {
     primary: {
       main: "#6200ea",
-      light: "#651fff",
+      light: "#7c4dff",
     },
     secondary: {},
     blueViolet: "#311b92",

@@ -1,7 +1,7 @@
 export default {
-  headline: "Headline here",
+  headline: "Lorem ipsum dolor sit amet",
   subHeadline:
-    "Subheadline here",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
   socialLinks: {
     facebook: "https://www.facebook.com",
     instagram: "https://www.instagram.com",
